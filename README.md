@@ -4,7 +4,8 @@
 This tool, when run against a Juniper SRX firewall, will convert all of the zone-based address books to a single global one.
 > You MUST be running JUNOS 11.2 or above
 
-> The core of the code lies within the main [go-junos][go-junos] library [here][convert-code].
+This script is used to build the standalone binaries. If you wish to use the same functionality in your own scripts, you can 
+view the function lies within the main [go-junos][go-junos] library [here][convert-code].
 
 ### Download
 
