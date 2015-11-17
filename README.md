@@ -12,11 +12,20 @@ Head over to the [releases][releases] page to download the latest version.
 
 ### Example Usage
 
-* The script takes three (3) arguments:
-	* `-srx`
-	* `-u` Username
-	* `-p` Password
-* If running against more than one SRX, enclose in quotes like so: `-srx "firewall-1, firewall-2"`
+```
+zone2global - Convert an SRX from a zone-based address book to a global one.
+
+Usage: zone2global [OPTIONS]
+  -commit
+        Choose to apply the configuration directly instead of creating a file.
+  -p string
+        Password
+  -srx string
+        SRX to run the conversion against. If specifying multiple, enclose in quotes, i.e. "srx240-1 srx1400-2"
+  -u string
+        Username
+```
+
 * You can optionally choose to automatically apply the new configuration by specifying the `-commit` option.
 
 `zone2global -srx somefirewall -u admin -p password -commit`
