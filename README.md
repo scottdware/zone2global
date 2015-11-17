@@ -9,8 +9,10 @@ This tool, when run against a Juniper SRX firewall, will convert all of the zone
 * The script takes three (3) arguments: `-srx (firewall device)`, `-u (username)`, `-p (password)`
 * You can optionally choose to automatically apply the new configuration by specifying the `-commit` option.
 
-`zone2global.exe -srx somefirewall -u admin -p password -commit`
+`zone2global -srx somefirewall -u admin -p password -commit`
 
-If you omit the `-commit` option, then the configuration will be displayed on the console for you to copy/paste.
+If you omit the `-commit` option, then the configuration will be written to a file for each SRX you specified.
+
+`zone2global -srx somefirewall -u admin -p password` will create a file called `somefirewall_globaladdrbook.txt`
 
 [license]: https://github.com/scottdware/zone2global/blob/master/LICENSE
