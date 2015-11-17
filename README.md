@@ -12,9 +12,9 @@ Head over to the [releases][releases] page to download the latest version.
 
 * The script takes three (3) arguments:
 	* `-srx`
-		* One or more SRX firewalls. If multiple, enclose in quotes like so: `-srx "firewall-1, firewall-2"`
 	* `-u` Username
 	* `-p` Password
+* If running against more than one SRX, enclose in quotes like so: `-srx "firewall-1, firewall-2"`
 * You can optionally choose to automatically apply the new configuration by specifying the `-commit` option.
 
 `zone2global -srx somefirewall -u admin -p password -commit`
