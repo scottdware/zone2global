@@ -4,6 +4,8 @@
 This tool, when run against a Juniper SRX firewall, will convert all of the zone-based address books to a single global one.
 > You MUST be running JUNOS 11.2 or above
 
+> The core of the code lies within the main [go-junos][go-junos] library [here][convert-code].
+
 ### Download
 
 Head over to the [releases][releases] page to download the latest version.
@@ -23,3 +25,5 @@ If you omit the `-commit` option, then the configuration will be written to a fi
 
 [license]: https://github.com/scottdware/zone2global/blob/master/LICENSE
 [releases]: https://github.com/scottdware/zone2global/releases
+[go-junos]: https://github.com/scottdware/go-junos
+[convert-code]: https://github.com/scottdware/go-junos/blob/master/srx.go#L410
