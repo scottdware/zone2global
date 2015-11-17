@@ -26,8 +26,6 @@ Usage: zone2global [OPTIONS]
         Username
 ```
 
-* You can optionally choose to automatically apply the new configuration by specifying the `-commit` option.
-
 `zone2global -srx somefirewall -u admin -p password -commit`
 
 If you omit the `-commit` option, then the configuration will be written to a file for each SRX you specified. For example, running the above command without the `-commit` option will create a file called `somefirewall_globaladdrbook.txt` in the same location where the script was run.
