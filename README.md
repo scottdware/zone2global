@@ -7,7 +7,11 @@ This tool, when run against a Juniper SRX firewall, will convert all of the zone
 This script is used to build the standalone binaries. If you wish to use the same functionality in your own scripts, you can 
 view the function(s) code in the main [go-junos][go-junos] library [here][convert-code].
 
-> The underlying communication is over Netconf/SSH. Please make sure your devices allow this.
+> The underlying communication is over Netconf/SSH. Please make sure your devices allow this by using one or both of the following commands:
+```
+set system services netconf ssh
+set security zones security-zone <xxx> interfaces <xxx> host-inbound-traffic system-services netconf
+```
 
 ### Download
 
