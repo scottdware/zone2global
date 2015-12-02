@@ -1,4 +1,5 @@
 ## zone2global
+[![Travis-CI](https://travis-ci.org/scottdware/zone2global.svg?branch=master)](https://travis-ci.org/scottdware/zone2global)
 [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/scottdware/zone2global/master/LICENSE)
 
 This tool, when run against a Juniper SRX firewall, will convert all of the zone-based address books to a single global one.
