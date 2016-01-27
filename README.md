@@ -43,4 +43,4 @@ If you omit the `-commit` option, then the configuration will be written to a fi
 [license]: https://github.com/scottdware/zone2global/blob/master/LICENSE
 [releases]: https://github.com/scottdware/zone2global/releases
 [go-junos]: https://github.com/scottdware/go-junos
-[convert-code]: https://github.com/scottdware/go-junos/blob/master/srx.go#L410
+[convert-code]: https://github.com/scottdware/go-junos/blob/master/srx.go#L473
